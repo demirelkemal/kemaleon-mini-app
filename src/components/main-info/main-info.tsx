@@ -1,11 +1,9 @@
-import { bem } from '@/css/bem'
 import { useLaunchParams } from '@telegram-apps/sdk-react'
 import './main-info.css'
 import { Button } from '@/components/button.tsx'
 
 
 export function MainInfo() {
-  const [, e] = bem('main-info')
   const {tgWebAppData} = useLaunchParams();
 
   const renderUserName = () => {
