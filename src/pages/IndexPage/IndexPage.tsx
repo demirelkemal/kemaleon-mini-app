@@ -1,13 +1,13 @@
-import type { FC } from 'react'
-import './index.css'
+import type { FC } from 'react';
+import './index.css';
 
-import { Page } from '@/components/Page.tsx'
-import { MainInfo } from '@/components/main-info/main-info.tsx'
+import { Page } from '@/components/Page.tsx';
+import { SubscriptionScreen } from '@/pages/SubscriptionScreen/SubscriptionScreen';
 
 export const IndexPage: FC = () => {
   return (
     <Page back>
-      <MainInfo />
+      <SubscriptionScreen />
     </Page>
-  )
-}
+  );
+};
