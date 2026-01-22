@@ -2,12 +2,12 @@ import type { FC } from 'react'
 import './index.css'
 
 import { Page } from '@/components/Page.tsx'
-import { MainInfo } from '@/components/main-info/main-info.tsx'
+import { SubscriptionScreen } from '@/components/SubscriptionScreen.tsx'
 
 export const IndexPage: FC = () => {
   return (
     <Page back>
-      <MainInfo />
+      <SubscriptionScreen />
     </Page>
   )
 }
